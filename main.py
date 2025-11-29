@@ -1,15 +1,14 @@
 """Giải phương trình"""
 
-from src import complexe
+from src import complexe, sans_cube
 
 
 def main():
-    """Giải phương trình"""
-    print("""Bài 3: """)
-    result = complexe(0, 0, 1)
-    print("kết quả = {result}")
-    print()
 
+    print("Bài 36.1: Số học")
+    result = sans_cube(48)
+    print(f"sans_cube(48) = {result}")
+    print()
 
 if __name__ == "__main__":
     main()

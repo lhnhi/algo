@@ -13,8 +13,8 @@ help:
 
 build:
 	@echo "code"
-	@$(PYTHON) -m py_compile $(SRC)/*.py $(MAIN) 2>&1/dev/null
-	@(PYTHON) -m py_compile $(MAIN)
+	@$(PYTHON) -m py_compile $(SRC)/*.py $(MAIN) 2>/dev/null
+	@$(PYTHON) -m py_compile $(MAIN)
 
 dev:
 	@echo "chạy chương trình"
