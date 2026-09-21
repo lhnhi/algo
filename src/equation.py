@@ -7,7 +7,7 @@ def complexe(a, b, c):
     if a != 0:
         delta = b**2 - 4 * a * c
         s = delta**0.5
-        return {(-b - s) / (2 / a), (-b + s) / (2 * a)}
+        return {(-b - s) / (2 * a), (-b + s) / (2 * a)}
 
     if b != 0:
         return {-c / b}
